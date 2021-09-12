@@ -1,0 +1,235 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    font-family: $fontMain;
+}
+@keyframes slide {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+p{
+    font-size: 2rem;
+}
+
+h1{
+    display: $d-flex;
+    font-size: $fontSizeMedium;
+    flex-direction: column;
+    font-size: 4rem;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+h2{
+    font-size: $fontSizeMedium;
+    font-weight: $fontBold;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    top: 1rem;
+}
+.font-title{
+    top: 0 auto;
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+    font-weight: 600;  
+}
+
+.center-block{
+    display: block;
+    margin-left:auto;
+    margin-right: auto;
+}
+.img-responsive{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.row{
+    img{
+        height: 100px;
+    }
+}
+
+.imagenes{
+    img{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    text-align: center;
+    }
+}
+
+.servicio{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+        p{
+        line-height: 2;
+        color: black;
+        font-size: 1.8rem;
+        font-weight: 800;
+        height: 300px;
+        width: 200px;
+        }
+            h3{
+            font-weight: 400px;
+            margin-bottom: 15px;
+            font-size: $fontSizeSm;
+            color: black;
+            text-decoration: underline;
+            }
+}
+.servicios h3 {
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 2.6rem;
+    color: black;
+}
+
+.container p {
+    margin: 0, 0, 10px;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .9);
+}
+
+.container p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.container img{
+        padding: 0.5rem;
+        display: flex;
+        max-width: 70%;
+        max-height: 5%;
+        margin: 0 auto;
+        box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2) ;  
+}
+
+/*Presentacion Mayoristas*/
+
+.container-presentacion {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    background-image: url(../img/a16.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+.container-details {
+    margin-left: 10px;
+    width: 100%;
+    max-width: 1200%;
+    position: relative;
+    
+}
+
+.details {
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    top: 10px;
+    bottom: 40px;
+    padding-right: 10px;
+}
+
+.detalle {
+    font-size: 50px;
+    color:black;
+    font-weight: 600;
+    text-align: center;
+}
+
+.details p {
+    margin-top: 10px;
+    font-size: 35px;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+}
+.details button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background: none;
+    border-style: none;
+    border: 1px solid black;
+    margin-left: 45%;
+    margin-right: 45%;
+    transition: background 300ms;
+    color: black;
+}
+
+.details button a{
+    text-decoration: none;
+    color: black;
+}
+
+.details button:hover {
+    background: rgba(0, 0, 0, 0.2);
+    color: black;
+    cursor: pointer;
+}
+
+.container4{
+    margin-top: 2rem;
+}
+/*Main-Index*/
+.contenido {
+    margin: 0 auto; 
+    max-width: 1600px;
+}
+
+.sombra {
+    padding: 2rem;
+    margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.63);
+    -moz-box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.63);
+    box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.63);
+}
+
+.sombra2 {
+    padding: 1rem;
+    margin-bottom: 3rem;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.63);
+    -moz-box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.63);
+    box-shadow: 0px 11px 15px -9px rgba(0, 0, 0, 0.63);
+}

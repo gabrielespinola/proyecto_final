@@ -1,0 +1,91 @@
+@media (min-width:768px) {
+    footer{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .copy-right p{
+        max-width: 100%;
+        margin: 0 auto
+    }
+    .redes-sociales ul{
+        margin-top: 0;
+        margin-bottom: 1rem
+    }
+    
+}
+
+@media screen and (max-width:500px){
+    .details p {
+        font-size: 18px;
+        top: 10px;
+        bottom: 10px;
+    }
+    .detalle{
+        font-size: 18px;
+        top: 10px;
+        bottom: 10px;
+    }
+    .details button{
+        font-size: 15px;
+        top: 10px;
+        bottom: 10px;
+    }
+}
+
+@media (min-width:768px) {
+    .servicios {
+        display: grid;
+        grid-template-columns: 23.3% 23.3% 23.3% 23.3%;
+        column-gap: 1rem;
+        font-size: 1.8rem;
+    }
+    .servicio{
+        p{
+            line-height: 2;
+            color: black;
+            font-size: 1.8rem;
+            font-weight: 800;
+            height: 300px;
+            width: 200px;
+            }
+                h3{
+                font-weight: 400px;
+                margin-bottom: 15px;
+                font-size: $fontSizeSm;
+                color: black;
+                text-decoration: underline;
+                }
+    }
+}
+@media (min-width:768px) {
+    .formulario {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+@media (min-width:480px) {
+    .campo {
+        display: flex;
+        align-items: center;
+    }
+}
+@media (min-width: 768px) {
+    .campo{
+        flex: 0 0 calc(50% - .5rem)
+    }
+}
+@media (min-width:480px) {
+    .campo label {
+        flex: 0 0 90px;
+    }
+}
+@media (min-width: 768px) {
+    :is(.campo) :is( 
+        input[type="text"], 
+        input[type="text"],  
+        input[type="tel"],  
+        input[type="mail"] , 
+        textarea ) {
+        flex: 1;
+    }
+}

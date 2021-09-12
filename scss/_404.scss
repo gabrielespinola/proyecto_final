@@ -1,0 +1,46 @@
+
+.pageNot {
+    line-height: 2;
+    background-color: #1a1a1a;
+    color: white;
+    font-size: 16px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+@media screen and (max-width:600px) {
+    .pageNot {
+        font-size: 10px;
+    }
+}
+
+#container {
+    width: calc(100% - 100px);
+    max-width: 700px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 30px 50px;
+}
+
+.pageNot1{
+    font-size: 16rem;
+}
+
+.pageNot2{
+    font-size: 4rem;
+}
+
+.pageNot3 {
+  color: white;
+  font-size: 5rem;
+  margin: 0px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.pageNot3:hover {
+  color: lightgray;
+}
+
+@font-face {
+    font-family:'Open Sans';font-style:normal;font-weight:700;src:local('Open Sans Bold'),local('OpenSans-Bold'),url(https://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzOgdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}

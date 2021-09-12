@@ -1,0 +1,80 @@
+.redes-sociales{
+    display: flex;
+    top:0%;
+    height:7vh;
+        ul li{
+            display:inline-block;
+            width: 4rem;
+            height: 1em;
+            text-align: left;  
+        }
+            a{
+            display: block;
+            padding: 0px;
+            color: rgba(0, 0, 0, .9);
+            font-size: 20px;
+            }
+}
+
+.bg-style{
+    background: linear-gradient(rgba(39, 37, 28, 0.295), rgba(102, 99, 81, 0.445));
+    border-radius: 10px;
+}
+.bg-style1{
+    background-color: rgba(240, 231, 184, 0.76);
+}
+nav img {
+    width: 100px;
+    border-radius: 30px;
+}
+.nav-container{
+    width: 100%;
+}
+.nav-container{
+    width: 100%;
+        h1{
+        color: whitesmoke;
+        text-shadow: 0 0 8px black;
+        font-size: 70px;
+        font-weight: bolder;}
+            span{
+                display: block;
+            }
+}
+
+
+.navbar-nav{
+     a:hover{
+    background-color: rgba(155, 134, 114, 0.295);
+    border-radius: 2px;
+}
+}
+
+.btn{
+    btn-outline-light{
+    color: white;
+    border-color: white;
+}
+}
+.navFooter {
+    display: flex;
+    font-size: 9rem;
+    margin-left: 10px;
+        ul {
+            align-items: center;
+        }
+            li {
+                display: inline-block;
+                position: relative;
+            }
+                a {
+                    font-size: 25px;
+                    text-decoration: none;
+                    color: black;
+                    text-decoration: solid;
+                }
+                    a:hover {
+                        text-decoration: underline;
+                        color: black;
+                    }
+}
